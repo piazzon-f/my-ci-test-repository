@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpunit/phpunit": "@stable",
+        "mockery/mockery": "@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ci\\": "src/"
+        }
+    }
+}
